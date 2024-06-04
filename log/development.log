@@ -1,265 +1,91 @@
-Started GET "/" for 108.162.237.44 at 2024-06-04 04:26:08 +0000
-Cannot render console from 10.20.12.244! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/" for 108.162.238.81 at 2024-06-04 05:10:21 +0000
+Cannot render console from 10.20.10.46! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
 Processing by PagesController#welcome as HTML
   Rendering layout layouts/application.html.erb
   Rendering pages/welcome.html.erb within layouts/application
   Rendered pages/welcome.html.erb within layouts/application (Duration: 1.1ms | Allocations: 476)
-  Rendered layout layouts/application.html.erb (Duration: 205.1ms | Allocations: 72036)
-Completed 200 OK in 217ms (Views: 209.1ms | ActiveRecord: 0.0ms | Allocations: 78433)
+  Rendered layout layouts/application.html.erb (Duration: 190.0ms | Allocations: 73312)
+Completed 200 OK in 201ms (Views: 193.9ms | ActiveRecord: 0.0ms | Allocations: 79709)
 
 
-Started GET "/work" for 108.162.237.168 at 2024-06-04 04:26:16 +0000
-Cannot render console from 10.20.11.183! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#work as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/work.html.erb within layouts/application
-  Rendered pages/work.html.erb within layouts/application (Duration: 0.9ms | Allocations: 120)
-  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1178)
-Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1546)
-
-
-Started GET "/work" for 108.162.237.32 at 2024-06-04 04:26:23 +0000
-Cannot render console from 10.20.12.244! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#work as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/work.html.erb within layouts/application
-  Rendered pages/work.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1073)
-Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1384)
-
-
-Started GET "/" for 108.162.237.32 at 2024-06-04 04:26:24 +0000
-Cannot render console from 10.20.11.183! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1074)
-Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1385)
-
-
-Started GET "/work" for 108.162.237.32 at 2024-06-04 04:26:26 +0000
-Cannot render console from 10.20.10.247! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#work as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/work.html.erb within layouts/application
-  Rendered pages/work.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1073)
-Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1384)
-
-
-Started GET "/" for 108.162.237.32 at 2024-06-04 04:26:27 +0000
-Cannot render console from 10.20.11.183! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1073)
-Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1380)
-
-
-Started GET "/work" for 108.162.238.121 at 2024-06-04 04:26:29 +0000
+Started GET "/work" for 108.162.238.81 at 2024-06-04 05:10:22 +0000
 Cannot render console from 10.20.11.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
 Processing by PagesController#work as HTML
   Rendering layout layouts/application.html.erb
   Rendering pages/work.html.erb within layouts/application
-  Rendered pages/work.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1072)
-Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1379)
+  Rendered pages/work.html.erb within layouts/application (Duration: 0.5ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1238)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1606)
 
 
-Started GET "/work" for 108.162.238.121 at 2024-06-04 04:26:30 +0000
+Started GET "/welcome" for 108.162.238.142 at 2024-06-04 05:10:24 +0000
+Cannot render console from 10.20.12.244! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1097)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1408)
+
+
+Started GET "/welcome" for 108.162.238.48 at 2024-06-04 05:11:06 +0000
+Cannot render console from 10.20.11.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.4ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1572)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2566)
+
+
+Started GET "/welcome" for 108.162.237.91 at 2024-06-04 05:11:40 +0000
+Cannot render console from 10.20.11.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.6ms | Allocations: 204)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1623)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2618)
+
+
+Started GET "/work" for 108.162.237.91 at 2024-06-04 05:11:42 +0000
 Cannot render console from 10.20.12.244! Allowed networks: 127.0.0.0/127.255.255.255, ::1
 Processing by PagesController#work as HTML
   Rendering layout layouts/application.html.erb
   Rendering pages/work.html.erb within layouts/application
-  Rendered pages/work.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1072)
-Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1379)
+  Rendered pages/work.html.erb within layouts/application (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1231)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1592)
 
 
-Started GET "/" for 108.162.238.121 at 2024-06-04 04:26:32 +0000
-Cannot render console from 10.20.10.247! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1073)
-Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1380)
-
-
-Started GET "/" for 108.162.238.37 at 2024-06-04 04:27:45 +0000
+Started GET "/welcome" for 108.162.238.64 at 2024-06-04 05:11:45 +0000
 Cannot render console from 10.20.10.46! Allowed networks: 127.0.0.0/127.255.255.255, ::1
 Processing by PagesController#welcome as HTML
   Rendering layout layouts/application.html.erb
   Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.4ms | Allocations: 123)
-  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1524)
-Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 2514)
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 49)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1119)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1426)
 
 
-Started GET "/" for 108.162.237.136 at 2024-06-04 04:27:50 +0000
-Cannot render console from 10.20.11.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.4ms | Allocations: 123)
-  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 8743)
-Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 9715)
-
-
-  
-ActionView::Template::Error (undefined local variable or method `home_path' for #<ActionView::Base:0x00000000008ca0>):
-    19: 
-    20:   <body><ul class="nav">
-    21:   <li class="nav-item">
-    22:     <%= link_to "Home", home_path, class: "nav-link" %>
-    23:   </li>
-    24:   <li class="nav-item">
-    25:     <%= link_to "View My Work", work_path, class: "nav-link" %>
-  
-app/views/layouts/application.html.erb:22
-Started GET "/" for 108.162.238.79 at 2024-06-04 04:28:25 +0000
-Cannot render console from 10.20.11.183! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
-  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 5002)
-Completed 500 Internal Server Error in 9ms (Allocations: 5727)
-
-
-  
-ActionView::Template::Error (undefined local variable or method `home_path' for #<ActionView::Base:0x0000000000a690>):
-    19: 
-    20:   <body><ul class="nav">
-    21:   <li class="nav-item">
-    22:     <%= link_to "Home", home_path, class: "nav-link" %>
-    23:   </li>
-    24:   <li class="nav-item">
-    25:     <%= link_to "View My Work", work_path, class: "nav-link" %>
-  
-app/views/layouts/application.html.erb:22
-Started GET "/" for 108.162.237.42 at 2024-06-04 04:28:40 +0000
-Cannot render console from 10.20.12.244! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.4ms | Allocations: 123)
-  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 5439)
-Completed 500 Internal Server Error in 12ms (Allocations: 6392)
-
-
-  
-ActionView::Template::Error (undefined local variable or method `welcome_path' for #<ActionView::Base:0x0000000000a848>):
-    19: 
-    20:   <body><ul class="nav">
-    21:   <li class="nav-item">
-    22:     <%= link_to "Home", welcome_path, class: "nav-link" %>
-    23:   </li>
-    24:   <li class="nav-item">
-    25:     <%= link_to "View My Work", work_path, class: "nav-link" %>
-  
-app/views/layouts/application.html.erb:22
-Started GET "/" for 108.162.238.180 at 2024-06-04 04:28:49 +0000
-Cannot render console from 10.20.10.247! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 4977)
-Completed 500 Internal Server Error in 9ms (Allocations: 5248)
-
-
-  
-ActionView::Template::Error (undefined local variable or method `welcome_path' for #<ActionView::Base:0x0000000000a988>):
-    19: 
-    20:   <body><ul class="nav">
-    21:   <li class="nav-item">
-    22:     <%= link_to "Home", welcome_path, class: "nav-link" %>
-    23:   </li>
-    24:   <li class="nav-item">
-    25:     <%= link_to "View My Work", work_path, class: "nav-link" %>
-  
-app/views/layouts/application.html.erb:22
-Started GET "/" for 108.162.237.91 at 2024-06-04 04:29:15 +0000
-Cannot render console from 10.20.11.183! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
-  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1183)
-Completed 200 OK in 3ms (Views: 2.8ms | Allocations: 1937)
-
-
-Started GET "/welcome" for 108.162.237.91 at 2024-06-04 04:29:16 +0000
-Cannot render console from 10.20.12.244! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1096)
-Completed 200 OK in 2ms (Views: 2.2ms | Allocations: 1400)
-
-
-Started GET "/work" for 108.162.237.91 at 2024-06-04 04:29:16 +0000
-Cannot render console from 10.20.11.183! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#work as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/work.html.erb within layouts/application
-  Rendered pages/work.html.erb within layouts/application (Duration: 0.4ms | Allocations: 115)
-  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1195)
-Completed 200 OK in 3ms (Views: 2.5ms | Allocations: 1552)
-
-
-Started GET "/welcome" for 108.162.238.46 at 2024-06-04 04:29:17 +0000
-Cannot render console from 10.20.10.247! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1096)
-Completed 200 OK in 2ms (Views: 2.1ms | Allocations: 1400)
-
-
-Started GET "/work" for 108.162.238.46 at 2024-06-04 04:29:18 +0000
-Cannot render console from 10.20.11.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#work as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/work.html.erb within layouts/application
-  Rendered pages/work.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1095)
-Completed 200 OK in 3ms (Views: 3.1ms | Allocations: 1399)
-
-
-Started GET "/welcome" for 108.162.238.46 at 2024-06-04 04:29:19 +0000
-Cannot render console from 10.20.10.247! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1096)
-Completed 200 OK in 2ms (Views: 2.2ms | Allocations: 1400)
-
-
-Started GET "/welcome" for 108.162.238.46 at 2024-06-04 04:29:20 +0000
-Cannot render console from 10.20.11.215! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1096)
-Completed 200 OK in 2ms (Views: 2.0ms | Allocations: 1400)
-
-
-Started GET "/welcome" for 108.162.238.46 at 2024-06-04 04:29:20 +0000
+Started GET "/welcome" for 108.162.238.160 at 2024-06-04 05:11:53 +0000
 Cannot render console from 10.20.10.46! Allowed networks: 127.0.0.0/127.255.255.255, ::1
 Processing by PagesController#welcome as HTML
   Rendering layout layouts/application.html.erb
   Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1096)
-Completed 200 OK in 2ms (Views: 2.1ms | Allocations: 1400)
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.7ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 1611)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 2601)
+
+
+Started GET "/welcome" for 108.162.238.124 at 2024-06-04 05:11:58 +0000
+Cannot render console from 10.20.10.46! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1114)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 1422)
 
 
