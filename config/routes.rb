@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
   get '/work', to: 'pages#work'
   get '/welcome', to: 'pages#welcome'
+  get '/about', to: 'pages#about'
   root 'pages#welcome'
 end
