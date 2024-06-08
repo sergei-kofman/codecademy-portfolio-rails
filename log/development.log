@@ -1,0 +1,31 @@
+Started GET "/" for 108.162.242.59 at 2024-06-08 19:18:34 +0000
+Cannot render console from 10.20.11.245! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.3ms | Allocations: 625)
+  Rendered layout layouts/application.html.erb (Duration: 177.9ms | Allocations: 73531)
+Completed 200 OK in 189ms (Views: 181.7ms | ActiveRecord: 0.0ms | Allocations: 79928)
+
+
+Started GET "/contact" for 108.162.242.59 at 2024-06-08 19:18:37 +0000
+Cannot render console from 10.20.11.116! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 0.5ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1282)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1650)
+
+
+Started GET "/welcome" for 172.69.214.141 at 2024-06-08 19:18:45 +0000
+Cannot render console from 10.20.11.116! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1176)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 1487)
+
+
